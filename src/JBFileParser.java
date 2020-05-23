@@ -54,6 +54,6 @@ public class JBFileParser {
         }
         String[][] stringArray = csv.toArray();
 
-        }
     }
 }
+
