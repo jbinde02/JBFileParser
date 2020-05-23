@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585077440236</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Made CSV object.">
+      <created>1590206198653</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590206198653</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +111,7 @@
     <MESSAGE value="Created Main." />
     <MESSAGE value="Testing out how this stuff works. Made a parser by having a buffered reader go through a file and put the lines in a list. Then main prints the list with a iterator." />
     <MESSAGE value="Made it store each value in the file as a list of lists of strings." />
-    <option name="LAST_COMMIT_MESSAGE" value="Made it store each value in the file as a list of lists of strings." />
+    <MESSAGE value="Made CSV object." />
+    <option name="LAST_COMMIT_MESSAGE" value="Made CSV object." />
   </component>
 </project>
