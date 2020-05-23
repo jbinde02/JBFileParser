@@ -3,7 +3,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.util.*;
-import javax.swing.JTable;
+import javax.swing.*;
 
 public class JBFileParser {
     /**
@@ -31,8 +31,9 @@ public class JBFileParser {
     }
 
     public JTable toTable(JavaCSV csv){
-        Object[][] data = csv.toArray();
-        JTable table = new JTable();
+        String[][] data = csv.toArray();
+        String[] dataColumns = csv.getColumnNames();
+        JTable table = new JTable(data, dataColumns);
         return table;
     }
 
@@ -48,13 +49,24 @@ public class JBFileParser {
             e.printStackTrace();
         }
 
+        //Print out list
         ListIterator iterator = csv.csv.listIterator();
         while(iterator.hasNext()){
             System.out.println(iterator.next());
         }
 
-        String[][] stringArray = csv.toArray();
+        //Put list in Table
+        JFrame frame = new JFrame("Table");
+        frame.setSize(750,750);
+        frame.setVisible(true);
 
+        JTable table = fp.toTable(csv);
+        table.setFillsViewportHeight(true);
+
+        JScrollPane scrollPane = new JScrollPane(table);
+
+        frame.add(scrollPane);
+        frame.revalidate();
     }
 }
 

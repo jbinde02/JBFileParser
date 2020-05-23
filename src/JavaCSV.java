@@ -13,4 +13,13 @@ public class JavaCSV {
         return stringArray;
     }
 
+    public String[] getColumnNames(){
+        int rowLength = csv.get(0).size();
+        String[] columnNames = new String[rowLength];
+        for(int i = 0; i<rowLength; i++){
+            columnNames[i] = csv.get(0).get(i);
+        }
+        return columnNames;
+    }
+
 }

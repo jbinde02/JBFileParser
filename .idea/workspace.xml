@@ -4,6 +4,7 @@
     <list default="true" id="0252e107-d257-4aa5-b1d6-2c3335e30077" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JBFileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JBFileParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaCSV.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590209785196</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Working on making a table.">
+      <created>1590258315446</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590258315446</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
