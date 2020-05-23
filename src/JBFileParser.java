@@ -52,6 +52,7 @@ public class JBFileParser {
         while(iterator.hasNext()){
             System.out.println(iterator.next());
         }
+
         String[][] stringArray = csv.toArray();
 
     }

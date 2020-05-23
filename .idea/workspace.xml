@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0252e107-d257-4aa5-b1d6-2c3335e30077" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JBFileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JBFileParser.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +92,28 @@
       <option name="project" value="LOCAL" />
       <updated>1590206198653</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Working on making a table.">
+      <created>1590209626410</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590209626410</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Working on making a table.">
+      <created>1590209663637</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590209663637</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Working on making a table.">
+      <created>1590209785196</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590209785196</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +134,7 @@
     <MESSAGE value="Testing out how this stuff works. Made a parser by having a buffered reader go through a file and put the lines in a list. Then main prints the list with a iterator." />
     <MESSAGE value="Made it store each value in the file as a list of lists of strings." />
     <MESSAGE value="Made CSV object." />
-    <option name="LAST_COMMIT_MESSAGE" value="Made CSV object." />
+    <MESSAGE value="Working on making a table." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on making a table." />
   </component>
 </project>
